@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sample Table</title>
+  <style>
+    .table-container {
+      margin-bottom: 60px;
+      /* Adjust the margin to add space between tables */
+      margin-left: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 85%;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="table-container">
+    
+    <table class="table-container">
+      <tr >
+        <td>
+          <img src="images/medologo.png" alt="logo" style="width: auto; height: 50px; vertical-align: middle;">
+        </td>
+        <td colspan="5">Medopharm<br>
+          Malur<br>
+          $data$ DEPARTMENT
+        </td>
+        
+        <th rowspan="1" style="width: 20%;">MAINT/027:F4-00</th>
+      </tr>
+      <tr>
+        <th>Title:</th>
+        <th colspan="6" style="text-align: center;">COATING & POLISHING PAN</th>
+
+      </tr>
+      <!-- <tr style="font-weight: bolder;">
+        <td colspan="5">Instrument Code No:</td>
+        <td colspan="3">Make:</td>
+      </tr> -->
+    </table>
+    <h4 style="margin-left: 100px;">Preventive Maintenance- $data$</h4>
+    <h4 style="margin-left: 100px;">Equipment Code- $data$</h4>
+
+<table class="table-container">
+      <tr style="font-weight: bolder; text-align: center;">
+        <td rowspan="2">S.no</td>
+        <td rowspan="2">Description</td>
+        <td rowspan="2">Observation</td>
+        <td rowspan="2" >Remarks</td>
+      </tr>
+      <!-- <tr style="font-weight: bolder;">
+        <td rowspan="1">From</td>
+        <td rowspan="1">To</td>
+        
+      </tr> -->
+      <tr></tr>
+      <tr>
+        <td>$data$</td>
+      </tr>
+
+    </table>
+    <div style="width: 100%;display: flex;margin-left: 10rem;">
+      <div style="width: 50%;flex-direction: column;flex-wrap: nowrap;">
+      <h4>Done by:$data$</h4>
+
+      <h4>Done on:$data$</h4>
+      <h4>Next Due Date:$data$</h4>
+    </div>
+    <div style="width:50%">
+      <h4>Checked By:$data$</h4>
+    </div>
+      
+      </div>
+  </div>
+
+  
+    
+ 
+
+</body>
+
+</html>

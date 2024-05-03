@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sample Table</title>
+  <style>
+    .table-container {
+      margin-bottom: 60px;
+      /* Adjust the margin to add space between tables */
+      margin-left: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 85%;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="table-container">
+    
+    <table class="table-container">
+      <tr >
+        <td style="width: 5rem;">
+          <img src="images/medologo.png" alt="logo" style="width: auto; height: 50px; vertical-align: middle;">
+        </td>
+        <td colspan="5">Medopharm<br>
+          Malur<br>
+          $data$ DEPARTMENT
+        </td>
+        
+        <th rowspan="1" style="width: 20%;">MAINT/036:F4-01</th>
+      </tr>
+      <tr>
+        <th>Title:</th>
+        <th colspan="6" style="text-align: center;">BOILER LOG 850 KGS.</th>
+
+      </tr>
+      <!-- <tr style="font-weight: bolder;">
+        <td colspan="5">Instrument Code No:</td>
+        <td colspan="3">Make:</td>
+      </tr> -->
+    </table>
+    <!-- <div style="display: flex;flex-direction: row;justify-content:space-between;margin-bottom: 1rem;">
+    <span style="font-weight: 600;margin-left: 2rem;";>Instrument Code no:$data$</span>
+    <span style="font-weight: 600;margin-right: 15rem;">Make-$data$</span>
+    </div> -->
+<table class="table-container">
+  <tr>
+    <td style="width: 56.5694px;" rowspan="2">Date</td>
+    <td style="width: 56.5694px;" rowspan="2">ON Time</td>
+    <td style="width: 56.5694px;" rowspan="2">OFF Time</td>
+    <td style="width: 56.5694px;" rowspan="2">Reading at</td>
+    <td style="width: 56.5694px;" rowspan="2">Steam Temp($data$)</td>
+    <td style="width: 56.5694px;" colspan="2">Pressure(Kgs.)</td>
+    <td style="width: 56.5694px;" rowspan="2">Water Quality(NMT 5ppm)</td>
+    <td style="width: 56.5694px;" rowspan="2">Diesel Level(Ltrs)</td>
+    <td style="width: 56.5694px;" rowspan="2">Water Level</td>
+    <td style="width: 58.1944px;" rowspan="2">Blow down Time NMT 30 sec.</td>
+    <td style="width: 56.5694px;" rowspan="2">Softner regeneration done on</td>
+    <td style="width: 56.6528px;" rowspan="2">Done by</td>
+    <td style="width: 56.6528px;" rowspan="2">Checked by</td>
+    </tr>
+    <tr>
+    <td style="width: 56.5694px;">Stream</td>
+    <td style="width: 56.5694px;">Diesel</td>
+    </tr>
+      <!-- <tr style="font-weight: bolder;">
+        <td rowspan="1">From</td>
+        <td rowspan="1">To</td>
+        
+      </tr> -->
+      <tr></tr>   
+      <tr>
+        <td>$data$</td>
+      </tr>
+
+    </table>
+    <!-- <div style="width: 100%;display: flex;margin-left: 10rex;">
+      <div style="width: 50%;flex-direction: column;flex-wrap: nowrap;">
+      <h4>Done by:$data$</h4>
+
+      <h4>Done on:$data$</h4>
+      <h4>Next Due Date:$data$</h4>
+    </div>
+    <div style="width:50%">
+      <h4>Checked By:$data$</h4>
+    </div>
+      
+      </div> -->
+  </div>
+
+  
+    
+ 
+
+</body>
+
+</html>

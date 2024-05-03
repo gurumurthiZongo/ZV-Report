@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sample Table</title>
+  <style>
+    .table-container {
+      margin-bottom: 60px;
+      /* Adjust the margin to add space between tables */
+      margin-left: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 85%;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="table-container">
+    
+    <table class="table-container">
+      <tr >
+        <td style="width: 5rem;">
+          <img src="images/medologo.png" alt="logo" style="width: auto; height: 50px; vertical-align: middle;">
+        </td>
+        <td colspan="5">Medopharm<br>
+          Malur<br>
+          $data$ DEPARTMENT
+        </td>
+        
+        <th rowspan="1" style="width: 20%;">QCML/026:F2-01</th>
+      </tr>
+      <tr>
+        <th>Title:</th>
+        <th colspan="6" style="text-align: center;">LAMINAR AIR FLOW USAGE LOG SHEET</th>
+
+      </tr>
+      <!-- <tr style="font-weight: bolder;">
+        <td colspan="5">Instrument Code No:</td>
+        <td colspan="3">Make:</td>
+      </tr> -->
+    </table>
+    <!-- <div style="display: flex;flex-direction: row;justify-content:space-between;margin-bottom: 1rem;">
+    <span style="font-weight: 600;margin-left: 2rem;";>Instrument Code no:$data$</span>
+    <span style="font-weight: 600;margin-right: 15rem;">Make-$data$</span>
+    </div> -->
+<table class="table-container">
+  <tr>
+    <td style="width: 82.6111px;">LAF ID</td>
+    <td style="width: 82.6111px;" colspan="4"></td>
+    <td style="width: 82.6111px;">Location</td>
+    <td style="width: 82.6111px;" colspan="5"></td>
+    
+    </tr>
+    <tr>
+    <td style="width: 82.6111px;" rowspan="2">Date</td>
+    <td style="width: 82.6111px;" colspan="2">Operation Time</td>
+    <td style="width: 82.6111px;" rowspan="2">Pressure</td>
+    <td style="width: 82.6111px;" colspan="4">UV Light burning hours(Limit:NMT 2000 Hours)</td>
+    <td style="width: 82.6111px;" rowspan="2">Done By</td>
+    <td style="width: 82.6111px;" rowspan="2">Checked By</td>
+      <td style="width: 82.6111px;" rowspan="2">Remarks</td>
+    </tr>
+    <tr>
+    <td style="width: 82.6111px;">From</td>
+    <td style="width: 82.6111px;">TO</td>
+    <td style="width: 82.6111px;">From</td>
+    <td style="width: 82.6111px;">To</td>
+    <td style="width: 82.6111px;">Duration</td>
+    <td style="width: 82.6111px;">Cumulative</td>
+    </tr>
+      <!-- <tr style="font-weight: bolder;">
+        <td rowspan="1">From</td>
+        <td rowspan="1">To</td>
+        
+      </tr> -->
+      <tr></tr>   
+      <tr>
+        <td>$data$</td>
+      </tr>
+
+    </table>
+    <!-- <div style="width: 100%;display: flex;margin-left: 10rex;">
+      <div style="width: 50%;flex-direction: column;flex-wrap: nowrap;">
+      <h4>Done by:$data$</h4>
+
+      <h4>Done on:$data$</h4>
+      <h4>Next Due Date:$data$</h4>
+    </div>
+    <div style="width:50%">
+      <h4>Checked By:$data$</h4>
+    </div>
+      
+      </div> -->
+  </div>
+
+  
+    
+ 
+
+</body>
+
+</html>

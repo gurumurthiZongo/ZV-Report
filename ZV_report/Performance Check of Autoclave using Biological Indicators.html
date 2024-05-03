@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sample Table</title>
+  <style>
+    .table-container {
+      margin-bottom: 60px;
+      /* Adjust the margin to add space between tables */
+      margin-left: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 85%;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="table-container">
+    
+    <table class="table-container">
+      <tr >
+        <td style="width: 5rem">
+          <img src="images/medologo.png" alt="logo" style="width: auto; height: 50px; vertical-align: middle;">
+        </td>
+        <td colspan="5">Medopharm<br>
+          Malur<br>
+          $data$ DEPARTMENT
+        </td>
+        
+        <th rowspan="1" style="width: 20%;">QCML/035:F2-00</th>
+      </tr>
+      <tr>
+        <th>Title:</th>
+        <th colspan="6" style="text-align: center;">PERFORMANCE CHECK OF AUTOCLAVE USING BIOLOGICAL INDICATORS</th>
+
+      </tr>
+      <!-- <tr style="font-weight: bolder;">
+        <td colspan="5">Instrument Code No:</td>
+        <td colspan="3">Make:</td>
+      </tr> -->
+    </table>
+    <p style="margin-left: 100px;">Data of analysis-$data$</p>
+    <p style="margin-left: 100px;">Autoclave ID no.-$data$</p>
+    <p style="margin-left: 100px;">Location-$data$</p>
+    <p style="margin-left: 100px;">Make & Model-$data$</p>
+    <p style="margin-left: 100px;">Biological indicator used-$data$</p>
+    <div style="display: flex;flex-direction: row;">
+    <p style="margin-left: 100px;margin-right: 25rem;">BI manufacturer-$data$</p>
+    <p style="margin-left: 100px;">Population-$data$</p>
+    </div>
+    <div style="display: flex;flex-direction: row;">
+      <p style="margin-left: 100px;margin-right: 25rem;">BI lot no.-$data$</p>
+      <p style="margin-left: 100px;margin-right: 15rem;">Mfg.Date-$data$</p>
+      <p style="margin-left: 100px;">Exp.Date-$data$</p>
+      </div>
+      <p style="margin-left: 100px;">Sterilization time & temperature-$data$</p>
+      <p style="margin-left: 100px;">Incubation time & temperature-$data$</p>
+  
+<table class="table-container">
+  <tr>
+    <td  rowspan="2">Sample Identification</td>
+    <td  colspan="2">Observation</td>
+    <td  rowspan="2">Remarks</td>
+    </tr>
+    <tr>
+    <td >24hrs</td>
+    <td >48hrs</td>
+    </tr>
+      <!-- <tr style="font-weight: bolder; text-align: center;">
+        <td rowspan="2">S.no</td>
+        <td rowspan="2">Description</td>
+        <td rowspan="2">Observation</td>
+        <td rowspan="2" >Remarks</td>
+      </tr> -->
+      <!-- <tr style="font-weight: bolder;">
+        <td rowspan="1">From</td>
+        <td rowspan="1">To</td>
+        
+      </tr> -->
+      <tr></tr>
+      <tr>
+        <td>$data$</td>
+      </tr>
+
+    </table>
+    <h4 style="margin-left: 2rem;">RESULT:The efficiency of autoclave Complies/Does not comply.</h4>
+    <div style="width: 100%;display: flex;margin-left: 10rex;">
+      <div style="width: 50%;flex-direction: column;flex-wrap: nowrap;">
+      <h4>DONE BY:$data$</h4>
+
+      <h4>DATE:$data$</h4>
+      <!-- <h4>Next Due Date:$data$</h4> -->
+    </div>
+    <div style="width:50%">
+      <h4>Checked By:$data$</h4>
+      <h4>DATE:$data$</h4>
+    </div>
+      
+      </div>
+  </div>
+
+  
+  
+</body>
+
+</html>

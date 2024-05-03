@@ -27,7 +27,7 @@
 <body>
   <div class="table-container">
     
-    <table style="margin-bottom: 30px;" class="table-container">
+    <table class="table-container">
       <tr >
         <td style="width: 5rem;">
           <img src="images/medologo.png" alt="logo" style="width: auto; height: 50px; vertical-align: middle;">
@@ -37,12 +37,11 @@
           $data$ DEPARTMENT
         </td>
         
-        <th rowspan="1" style="width: 20%;">MAINT/03:F2-01</th>
+        <th rowspan="1" style="width: 20%;">QCOP37:F1-03</th>
       </tr>
       <tr>
         <th>Title:</th>
-        <th colspan="6" style="text-align: center;">AIR HANDLING UNIT FILTER CLEANING RECORD FOR 10  $data$ [EXHAUST FILTERS]
-        </th>
+        <th colspan="6" style="text-align: center;">UV-VISIBLE SPECTROPHOTOMETER USAGE LOG SHEET</th>
 
       </tr>
       <!-- <tr style="font-weight: bolder;">
@@ -50,29 +49,28 @@
         <td colspan="3">Make:</td>
       </tr> -->
     </table>
-    <h4 style="margin-left: 60rem;">Frequency- $data$</h4>
-    <!-- <h4 style="margin-left: 100px;">Equipment Code-</h4> -->
-
+    <div style="display: flex;flex-direction: row;justify-content:space-between;margin-bottom: 1rem;">
+    <span style="font-weight: 600;margin-left: 2rem;";>Instrument Code no:$data$</span>
+    <span style="font-weight: 600;margin-right: 15rem;">Make-$data$</span>
+    </div>
 <table class="table-container">
       <tr style="font-weight: bolder; text-align: center;">
-        <td rowspan="2">S.no</td>
-        <td rowspan="2">EAU No</td>
-        <td rowspan="2">Filter Details</td>
-        <td rowspan="2" >Cleaned on Sign & Date</td>
-        <td rowspan="2" >Next Due date</td>
-        <td rowspan="2" >Cleaned on Sign & Date</td>
-        <td rowspan="2" >Next Due date</td>
-        <td rowspan="2" >Cleaned on Sign & Date</td>       
-        <td rowspan="2" >Next Due date</td>
-        <td rowspan="2" >Cleaned on Sign & Date</td>
-        <td rowspan="2" >Next Due date</td>
+        <td rowspan="2">Date</td>
+        <td>Time</td>
+        <td rowspan="2">Product /Material Name</td>
+        <td rowspan="2">Batch No/A.R. NO.</td>
+        <td rowspan="2">Wavelength</td>
+        <td rowspan="2">Number of Readings</td>
+        
+        <td rowspan="2" >Done by</td>
+        <td rowspan="2">Checked by</td>
       </tr>
       <!-- <tr style="font-weight: bolder;">
         <td rowspan="1">From</td>
         <td rowspan="1">To</td>
         
       </tr> -->
-      <tr></tr>
+      <tr></tr>   
       <tr>
         <td>$data$</td>
       </tr>
@@ -80,13 +78,13 @@
     </table>
     <!-- <div style="width: 100%;display: flex;margin-left: 10rex;">
       <div style="width: 50%;flex-direction: column;flex-wrap: nowrap;">
-      <h4>Done by:</h4>
+      <h4>Done by:$data$</h4>
 
-      <h4>Done on:</h4>
-      <h4>Next Due Date:</h4>
+      <h4>Done on:$data$</h4>
+      <h4>Next Due Date:$data$</h4>
     </div>
     <div style="width:50%">
-      <h4>Checked By:</h4>
+      <h4>Checked By:$data$</h4>
     </div>
       
       </div> -->
